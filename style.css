@@ -103,8 +103,6 @@ a:hover {
 
 .search-form_form {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 textarea,
@@ -121,7 +119,7 @@ input[type="text" i] {
   font-size: 13px;
   line-height: 25px;
 
-  width: 60%;
+  width: 10%;
 
   caret-color: var(--blue);
 
@@ -255,5 +253,4 @@ li.links__company:before {
 }
 .search-response-output-show {
   visibility: visible;
-  color: red;
 }

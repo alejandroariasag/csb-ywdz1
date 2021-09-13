@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./assets/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub URL: https://github.com/alejandroariasag/csb-ywdz1/
+- Live Site URL: https://alejandroariasag.github.io/csb-ywdz1/
 
 ## My process
 
