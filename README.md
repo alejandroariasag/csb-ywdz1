@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./assets/screenshot.jpg)
+![Screenshot](https://github.com/alejandroariasag/csb-ywdz1/blob/gh-pages/assets/screenshot.jpg?raw=true)
 
 ### Links
 
