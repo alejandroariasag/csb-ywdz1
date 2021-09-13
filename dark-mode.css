@@ -1,0 +1,44 @@
+body {
+  background-color: #141d2f;
+  color: white;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.header {
+  color: white;
+}
+
+.header__toggle p {
+  background: url("assets/icon-sun.svg");
+  background-size: 20px;
+
+  filter: none;
+
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.search-form,
+input[type="text" i],
+.card {
+  box-shadow: none;
+  background-color: var(--night-dark-blue);
+  color: white;
+}
+
+input[type="text" i]:placeholder,
+input[type="text" i]:active {
+  color: white;
+}
+
+.social {
+  background-color: #141d2f;
+}
+
+.social p {
+  color: white;
+}

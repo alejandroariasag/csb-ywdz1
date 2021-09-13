@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .container {
+    width: 648px;
+    margin: 140px auto;
+  }
+
+  h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  input[type="text" i] {
+    font-size: 18px;
+  }
+  button {
+    font-size: 16px;
+  }
+  .social {
+    text-align: left;
+  }
+
+  .links {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
+
+    <title>Frontend Mentor | GitHub user search app</title>
+    <script src="switchTheme.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo"><p>devfinder</p></div>
+        <div class="header__toggle" id="header__toggle" onclick="switchTheme()">
+          <p>Dark</p>
+        </div>
+      </header>
+      <nav class="search-form">
+        <form action="" class="search-form_form" id="searchForm">
+          <input
+            id="username"
+            type="text"
+            placeholder="username..."
+            onclick="this.value=''"
+          />
+          <div class="search-response-output"><p>No result</p></div>
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+      <article class="card">
+        <div class="card__header">
+          <div class="card__picture">
+            <img
+              src="https://avatars.githubusercontent.com/u/583231?v=4"
+              alt=""
+              srcset=""
+              id="gh-avatar_url"
+            />
+          </div>
+          <div class="card__header_content">
+            <div class="name">
+              <h1 id="gh-name">The Octocat</h1>
+              <h3 id="gh-login">@octocat</h3>
+            </div>
+            <div class="date" id="gh-created_at">
+              <p>Joined 25 Jan 2025</p>
+            </div>
+          </div>
+        </div>
+        <div class="card__content">
+          <p id="gh-bio">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+            expedita debitis et totam ipsam officia tempore praesentium, aut
+            excepturi ratione at unde quas, quia, distinctio impedit ut ipsa
+            nobis dolorum!
+          </p>
+          <div class="social">
+            <div>
+              <h4>Repos</h4>
+              <p id="gh-public_repos">8</p>
+            </div>
+            <div>
+              <h4>Followers</h4>
+              <p id="gh-followers">10</p>
+            </div>
+            <div>
+              <h4>Following</h4>
+              <p id="gh-following">9</p>
+            </div>
+          </div>
+          <ul class="links">
+            <li class="links__location" id="gh-location">San Francisco</li>
+            <li class="links__twitter" id="gh-twitter_username">
+              Not Available
+            </li>
+            <li class="links__website" id="gh-blog">https://gitub.io</li>
+            <li class="links__company" id="gh-company">@github</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

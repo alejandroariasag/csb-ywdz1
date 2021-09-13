@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  border: 1px solid black;
+}
+
+:root {
+  --blue: #0079ff;
+  --gray: #697c9a;
+  --grayish-blue: #4b6a9b;
+  --black: #2b3442;
+  --white: #fefefe;
+  --white-blue: #f6f8ff;
+
+  --night-blue: #0079ff;
+  --night-white: #ffffff;
+  --night-black: ##f6f8ff;
+  --night-dark-blue: #1e2a47;
+}
+
+body {
+  background-color: var(--white-blue);
+
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  line-height: 25px;
+  color: var(--grayish-blue);
+}
+
+.container {
+  width: 327px;
+  margin: 31px auto;
+}
+
+h1 {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--black);
+}
+h3 {
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--blue);
+}
+h4 {
+  font-size: 13x;
+  line-height: 20px;
+}
+
+a {
+  color: var(--grayish-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  color: #222731;
+}
+
+.header__logo {
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.header__toggle p {
+  background: url("assets/icon-moon.svg");
+  background-size: 20px;
+
+  filter: invert(51%) sepia(39%) saturate(315%) hue-rotate(177deg)
+    brightness(86%) contrast(84%);
+  /*    https://codepen.io/sosuke/pen/Pjoqqp */
+
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-right: calc(20px + 16px);
+
+  cursor: pointer;
+}
+
+.search-form {
+  background-color: var(--white);
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  border-radius: 15px;
+
+  padding: 10px;
+  margin-top: 36px;
+}
+
+.search-form_form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+textarea,
+select,
+input,
+button {
+  outline: none;
+  cursor: pointer;
+}
+input[type="text" i] {
+  background-color: var(--white);
+  border: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  line-height: 25px;
+
+  width: 60%;
+
+  caret-color: var(--blue);
+
+  background-image: url("assets/icon-search.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 32px;
+
+  padding-left: calc(32px + +24px + 23px);
+}
+
+input[type="text" i]:placeholder {
+  color: var(--grayish-blue);
+}
+
+input[type="text" i]:active {
+  color: var(--grayish-blue);
+}
+
+button {
+  width: 106px;
+  height: 50px;
+  color: white;
+  background-color: var(--blue);
+  border: 0;
+  border-radius: 10px;
+
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+button:hover {
+  background-color: #60abff;
+}
+
+.card {
+  margin-top: 24px;
+  background: var(--white);
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  border-radius: 15px;
+
+  padding: 24px;
+}
+
+.card__header {
+  display: flex;
+}
+.card__header_content {
+  padding-left: 5px;
+}
+.card__picture img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card__header_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.name a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.date {
+  color: var(--grayish-blue);
+}
+.card__content {
+  padding-left: 0px;
+}
+
+.social {
+  background: var(--white-blue);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  margin-top: 47px;
+
+  text-align: center;
+}
+
+.social p {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--black);
+}
+
+.links {
+  margin-top: 37px;
+}
+
+.links li {
+  padding-left: 1.3em;
+}
+.links li:before {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  margin-right: 20px;
+}
+
+li.links__location:before {
+  content: url("assets/icon-location.svg");
+}
+
+li.links__twitter:before {
+  content: url("assets/icon-twitter.svg");
+}
+li.links__website:before {
+  content: url("assets/icon-website.svg");
+}
+li.links__company:before {
+  content: url("assets/icon-company.svg");
+}
+
+.search-response-output {
+  visibility: hidden;
+}
+.search-response-output-show {
+  visibility: visible;
+  color: red;
+}
