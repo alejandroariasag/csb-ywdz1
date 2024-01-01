@@ -48,4 +48,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [swckd](https://www.swckd.com)
+- Website - 
