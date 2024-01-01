@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/aleckbeu/GitHub-user-search-app/blob/gh-pages/assets/screenshot.jpg?raw=true)
+![Screenshot](https://github.com/swckd/GitHub-user-search-app/blob/gh-pages/assets/screenshot.jpg?raw=true)
 
 ### Links
 
-- GitHub URL: https://github.com/aleckbeu/GitHub-user-search-app/
-- Live Site URL: https://aleckbeu.github.io/GitHub-user-search-app/
+- GitHub URL: https://github.com/swckd/GitHub-user-search-app/
+- Live Site URL: https://swckd.github.io/GitHub-user-search-app/
 
 ## My process
 
@@ -48,4 +48,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Aleckbeu](https://www.aleckbeu.com)
+- Website - [swckd](https://www.swckd.com)
