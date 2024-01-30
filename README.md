@@ -1,51 +1,30 @@
-# Frontend Mentor - GitHub user search app solution
+# GitHub User Search App
 
-This is a solution to the [GitHub user search app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![GitHub User Search App Banner](https://github.com/swckd/GitHub-user-search-app/raw/gh-pages/banner_image.jpg)
 
-## Table of contents
+This repository contains the source code for a GitHub User Search App. The app allows users to search for GitHub users and view their profiles.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+This project is an exercise from Frontend Mentor (https://www.frontendmentor.io/) and belongs to them. I coded the solution based on the provided design.
 
-## Overview
+### Features:
 
-### The challenge
+- **Search Functionality**: Users can search for GitHub users by their username.
+- **User Profiles**: View detailed profiles of GitHub users, including their repositories, followers, and following.
 
-Users should be able to:
+### Technologies Used:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Search for GitHub users by their username
-- See relevant user information based on their search
-- Switch between light and dark themes
-- **Bonus**: Have the correct color scheme chosen for them based on their computer preferences. _Hint_: Research `prefers-color-scheme` in CSS.
+- **HTML/CSS/JavaScript**: Frontend development technologies for building the user interface and implementing client-side functionality.
+- **GitHub API**: Utilized to fetch user data and display it within the application.
+- **Bootstrap**: Used for styling and layout purposes to enhance the user interface.
 
-### Screenshot
+### Contributing:
 
-![Screenshot](https://github.com/swckd/GitHub-user-search-app/blob/gh-pages/assets/screenshot.jpg?raw=true)
+Contributions are welcome! If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
 
-### Links
+### Credits:
 
-- GitHub URL: https://github.com/swckd/GitHub-user-search-app/
-- Live Site URL: https://swckd.github.io/GitHub-user-search-app/
+This project is maintained by [swckd](https://github.com/swckd). Special thanks to Frontend Mentor for providing the exercise and design.
 
-## My process
+### License:
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- Javascript
-- API (Git Hub API)
-
-## Author
-
-- Website - 
+This project is licensed under the MIT License.
