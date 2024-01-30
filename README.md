@@ -1,6 +1,6 @@
 # GitHub User Search App
 
-![GitHub User Search App Banner](https://github.com/swckd/GitHub-user-search-app/raw/gh-pages/banner_image.jpg)
+![GitHub User Search App Banner](https://raw.githubusercontent.com/swckd/GitHub-user-search-app/gh-pages/assets/GitHub-user-search-app.png)
 
 This repository contains the source code for a GitHub User Search App. The app allows users to search for GitHub users and view their profiles.
 
