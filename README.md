@@ -1,11 +1,9 @@
 # GitHub User Search App
 
-![GitHub User Search App Banner](https://raw.githubusercontent.com/swckd/GitHub-user-search-app/gh-pages/assets/GitHub-user-search-app.png)
+![GitHub User Search App Banner](https://raw.githubusercontent.com/swckd/GitHub-user-search-app/gh-pages/assets/screenshot-desktop.gif)
 
 This repository contains the source code for a GitHub User Search App. The app allows users to search for GitHub users and view their profiles.
-
-This project is an exercise from Frontend Mentor (https://www.frontendmentor.io/) and belongs to them. I coded the solution based on the provided design.
-
+Visit live site: https://swckd.github.io/GitHub-user-search-app/
 ### Features:
 
 - **Search Functionality**: Users can search for GitHub users by their username.
